@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+    <link rel="icon" type="diner/favicon.ico" sizes="32x32" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo3x.png" alt="logo" srcsset="images/logo1x.png 1x, imagrs/logo2x.pngc 2x, images/logo3x.png 3x">
+		<div class="header-content">
+            <div class="contact-info">
+                <a href="tel:+1234567890" class="phone">
+                    <span class="phone-text">(234) 567-890</span>
+                    <span class="phone-icon" style="display: none;">
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav id="theNav">
+        <button id="theButton"></button>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+<div class="parentHero">
+    <img src="images/hero.webp" width="1920" height="1000" alt="Hero">
+    <p>Race Efficiently!</p>
+    </div>
+    <div class="allcards">
+        <section class="bounce">
+            <h2>Oil Change</h2>
+            <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                <circle cx="11.5" cy="13.8" r="3.5"  stroke="black" fill="black"/>
+                <polyline
+             points="8 12, 11.5 5, 15 12"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             stroke-width="1"
+             />
+             <line x1="12" y1="9"
+             x2="14" y2="14"
+             stroke="white"
+             stroke-width="1"
+             stroke-linecap="round"
+             />
+             
+              
+                </svg>
+            <p>We offer oil changes for all vehicles, whether or not they're racing vehicles. Our oil changes are quick and effective, as we know how important the rest of you day is!</p>
+            <a href="#">Learn More</a>
+        </section>
+        <section class="spin">
+            <h2>Tire Change</h2>
+            <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+                <circle cx="11.5" cy="13.8" r="5"  stroke="black" fill="black"/>
+                <circle cx="11.5" cy="13.8" r="3.5"  stroke="black" fill="white"/>
+                <circle cx="11.5" cy="13.8" r="2.6" fill="silver"/>
+              
+                </svg>
+            <p>If you need new tires or need other tire maintenance done, such as tires being filled, we offer that as well. We will also check tire tread or tire pressure if you lack the necessary tools!</p>
+            <a href="#">Learn More</a>
+        </section>
+        <section class="bounce">
+            <h2>Paint Job</h2>
+            <img src="images/icon.svg" alt="Paint Job">
+            <p>If you're tired of the color of your race car, then come on in to get a paint job! We also touch up any areas of the vehicle that may have been scratched or need to be painted.</p>
+            <a href="#">Learn More</a>
+        </section>
+        <section class="bounce">
+            <h2>Engine Checks</h2>
+            <img src="images/icon2.svg" alt="Engine Checks">
+            <p>If your engine is giving you any kind of trouble, then come on in and have our professionals take a look! We're able to fix just about any problem an engine might have!</p>
+            <a href="#">Learn More</a>
+        </section>
+    </div>
+    </main>
+</div><!-- end main wrapper -->
+<div class="reviewWrapper">
+    <h2>What our Customers Say</h2>
+    <div id="cards"></div>
+</div>
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; Jason Garcia All rights reserved. 
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a></p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   <script src="js/scripts.js" type="module"></script>
+</body>
+</html> 

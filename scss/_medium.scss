@@ -1,0 +1,63 @@
+/* NAVIGATION STUFF GOES HERE  */
+#theButton {
+  display: none;
+}
+
+#theNav {
+  grid-template-rows: 1fr;
+}
+
+#theNav ul, #theNav ul.open {
+  display: flex;
+  li a {
+    padding: .4rem 1rem;
+    border: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+#cards {
+  text-align: center;
+  margin: $gutter;
+  
+  /* Set up grid layout for medium and large screens */
+  display: grid;
+  gap: 1.5rem; /* Space between grid items */
+
+  /* Default for small screens */
+  grid-template-columns: 1fr; /* 1 column for small screens */
+
+  h3 {
+      margin: 2rem $gutter 0 $gutter;
+      text-align: center;
+      color: #000;
+      font-weight: 700;
+  }
+
+}
+
+/* Review wrapper styles */
+.reviewWrapper {
+  margin: auto;
+  padding: 8px;
+  
+  /* Ensure images in the review are larger */
+  img {
+      width: 20px;
+  }
+}
+div.allcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gutter;
+  section {
+    flex-basis: calc(50% - ($gutter/2));
+  }
+}
+@media (min-width: 768px) {
+  #cards {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
